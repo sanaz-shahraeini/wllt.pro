@@ -1,12 +1,12 @@
 
-
+import Image from "next/image";
 const WelcomeFrame = () => {
   return (
     <div className="flex flex-col items-center bg-white min-h-screen">
     <div className="flex flex-col items-center justify-between min-h-screen w-full gr-bg" >
       {/* Card Image */}
       <div className="w-[258px] mt-32">
-        <img src="/card light.png" alt="Mastercard" className="w-full" />
+        <Image src="/card light.png" alt="Mastercard" className="w-full" width={258}  height={178}/>
       </div>
 
       {/* Text */}
